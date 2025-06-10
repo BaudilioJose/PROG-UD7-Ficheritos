@@ -47,17 +47,3 @@ El proyecto implementa cuatro actividades principales relacionadas con el manejo
 3. Compila el proyecto
 4. Ejecuta la clase `App.java`
 5. Sigue las instrucciones del menú en consola
-
-## Notas Importantes
-
-- La aplicación debe ejecutarse desde terminal para funcionar correctamente
-- Los archivos se crearán en el directorio `files/` del proyecto
-- Asegúrate de tener permisos de escritura en el directorio del proyecto
-
-## Autor
-
-[Tu Nombre]
-
-## Licencia
-
-Este proyecto está bajo la Licencia [Especificar Licencia]
