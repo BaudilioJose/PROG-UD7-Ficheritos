@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TableManager {
-    private static final String TABLES_FILE = "./files/actividad4_mesas.dat";
+    private static final String TABLES_FILE = "./files/actividad4_mesas.txt";
 
     // Método para guardar una mesa en el fichero
     public static void saveTableToFile(Table table) throws IOException {
