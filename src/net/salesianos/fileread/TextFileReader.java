@@ -67,7 +67,15 @@ public class TextFileReader {
 
     // Método alternativo que lee un archivo específico
     public static void leerArchivoEspecifico(String rutaArchivo) throws IOException {
-        try (BufferedReader br = new BufferedReader(new FileReader(rutaArchivo))) {
+        File archivo = new File(rutaArchivo);
+
+        if (!archivo.exists()) {
+            System.out.println("\nError: El archivo '" + rutaArchivo + "' no existe.");
+            System.out.println("Por favor, asegúrate de que el archivo existe en la ruta especificada.");
+            return;
+        }
+
+        try (BufferedReader br = new BufferedReader(new FileReader(archivo))) {
             System.out.println("\nLeyendo archivo: " + rutaArchivo);
 
             int caracter;
